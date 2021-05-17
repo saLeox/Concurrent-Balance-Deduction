@@ -19,7 +19,7 @@ Redission is a framework in Java that provide lock function, that covering above
 
 The *redisson-spring-boot-starter* can coexist with *spring-boot-starter-data-redis*.
 
- **1. Import your dependency as below:**
+ **Step 1. Import your dependency as below:**
 
 		<!-- redis -->
 		<dependency>
@@ -32,7 +32,7 @@ The *redisson-spring-boot-starter* can coexist with *spring-boot-starter-data-re
 		    <version>3.15.5</version>
 		</dependency>
 
-**2. Configure the redis in yml**
+**Step 2. Configure the redis in yml**
 
 	spring:
 	  redis:
@@ -40,7 +40,7 @@ The *redisson-spring-boot-starter* can coexist with *spring-boot-starter-data-re
 	    port: 
 	    password:
 
-**3. Use the lock and unlock function**
+**Step 3. Use the lock and unlock function**
 
 	@Autowired
     private RedissonClient redissonClient;
