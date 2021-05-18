@@ -123,7 +123,7 @@ In our case, we need to control the balance of both fund and investor.
 
 	return 1
 	
-<div align=center><img src="https://raw.githubusercontent.com/saLeox/photoHub/main/20210518105958.png" width="50%"/></div>
+<div align=center><img src="https://raw.githubusercontent.com/saLeox/photoHub/main/20210518105958.png" width="40%"/></div>
 
 #### Step 3. Load the Lua script and encapsulate into a bean
 
