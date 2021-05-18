@@ -218,7 +218,7 @@ The path of Lua can be configured in your Contants class.
 	redisTemplate.delete(Constants.REDIS_KEY_PREFIX_AVAILABILITY_FUND + key);
 	redisTemplate.delete(Constants.REDIS_KEY_PREFIX_AVAILABILITY_INVESTOR + key);
 
-### 3. Futhur enhancement
+## Futhur enhancement
 
 If you want to continue to improve the performance in high concurrent situation, you can involve:
 
@@ -226,5 +226,11 @@ If you want to continue to improve the performance in high concurrent situation,
  2. Use the websocket to give the asynchronous response to client side, if you use above mq.
  3. Use distributed transation management if you have http call, such as feign or resttemplate, in your business part to rollback the transation in failure case.
 
+## Reference
 
-This is the end, cheer up!
+https://juejin.cn/post/6844904030158716941#heading-8
+https://zhuanlan.zhihu.com/p/361132817
+
+
+## 
+***This is the end, cheer up!***
