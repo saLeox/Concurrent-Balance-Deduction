@@ -224,7 +224,8 @@ If you want to continue to improve the performance in high concurrent situation,
 
  1. Use Message Queue, such RabbitMQ, kafka to achieve decoupling and peak clipping, to prevent the overloading of database.
  2. Use the websocket to give the asynchronous response to client side, if you use above mq.
- 3. Use distributed transation management if you have http call, such as feign or resttemplate, in your business part to rollback the transation in failure case.
+ 3. Use distributed transation management  to rollback the transation in failure case, if you have http call, such as feign or resttemplate, in your business part.
+ 4. Use hytrix or sentinel in your gateway to achieve flow limiting, by setting the _threshold  value_ of QPS or TPS. 
 
 ## Reference
 
