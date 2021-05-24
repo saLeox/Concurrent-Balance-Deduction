@@ -8,7 +8,7 @@ Manage the balance or inventory in the context of high concurrency transaction, 
 ![](https://raw.githubusercontent.com/saLeox/photoHub/main/20210524233635.png)
 
 
-## Measure
+## Implementation
 
 ### 1. Prevent repeated order
 
