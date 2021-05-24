@@ -1,7 +1,12 @@
+
 # Concurrent-Balance-Deduction
 
 ## Object
 Manage the balance or inventory in the context of high concurrency transaction, such as sales promotion, to prevent oversell.
+
+## Modeling
+![](https://raw.githubusercontent.com/saLeox/photoHub/main/20210524233635.png)
+
 
 ## Measure
 
